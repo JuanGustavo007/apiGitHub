@@ -1,0 +1,47 @@
+input {
+  width: 500px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(97, 97, 97);
+  color: white;
+  padding: 10px;
+}
+
+input:focus {
+  background-color: aliceblue;
+  border: 1px solid black;
+  color: black;
+}
+.enviar {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 255, 0.1);
+  border: 1px solid rgb(92, 112, 105);
+  transition: 0.6s;
+}
+.enviar:hover {
+  background-color: blueviolet;
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 2rem;
+  border: 1px solid gray;
+  margin-top: 20px;
+}
+li {
+  padding: 10px;
+  margin-top: 15px;
+  background-color: rgba(128, 128, 128, 0.2);
+  border: 1px solid gray;
+  display: flex;
+  gap: 10px;
+}
+.item {
+  display: flex;
+  margin-bottom: 15px;
+}
+img {
+  width: 60px;
+  border-radius: 50%;
+}
